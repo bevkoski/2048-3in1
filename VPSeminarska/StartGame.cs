@@ -57,6 +57,7 @@ namespace VPSeminarska
             else
                 game = new Form1("Troll-2048");
 
+			// postavi defult ime dokolku korisnikot ne vnese ime
             String ime;
             if (textBox1.Text.Length == 0)
                 ime = "User";
