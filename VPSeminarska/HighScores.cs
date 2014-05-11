@@ -13,7 +13,7 @@ namespace VPSeminarska
     public class HighScores
     {
         public string Name { get; set; }
-        public int Score { get; set; }
+        public int Score { get; set; } // najdobriot rezultat od igrata
         public string Game { get; set; }
 
         public HighScores(string name, int score, string game)
