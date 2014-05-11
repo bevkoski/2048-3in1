@@ -27,6 +27,8 @@ namespace VPSeminarska
             name = "";
             tmp = "";
             highS=new List<HighScores>();
+            
+            //datoteka vo koja se cuvaat najdobrite rezultati
             if (File.Exists("high.bin"))
             {
                 str = File.OpenRead("high.bin");
